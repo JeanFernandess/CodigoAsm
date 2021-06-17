@@ -1,3 +1,10 @@
+
+; nasm -elf64 -o helloworld.o helloworld.asm
+; ld -o helloworld helloworld.o
+; ./ helloworld
+
+
+
 section .data
 
 msg1: db "Hello, world" ,10
